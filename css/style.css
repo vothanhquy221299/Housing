@@ -533,5 +533,18 @@ header{
 .agents__icon i:hover{
     background-color: #00CDCE;
 }
+.agents__content h3{
+    font-size: 4em;
+    font-weight: 500;
+    text-align: center;
+    color: black;
+    margin: 60px 0;
+}
+.agents__content{
+    margin-bottom: 80px;
+}
+.contact__map iframe{
+    width: 100%;
+}
 
 
