@@ -439,6 +439,9 @@ header{
     letter-spacing: 1px;
     margin: 50px 0;
 }
+.portfolio__content{
+    margin-bottom: 50px;
+}
 
 /* SUBCRIBE  */
 .subcribe__content{
@@ -485,4 +488,50 @@ header{
     border: black solid 1px;
     margin-top: 30px;
 }
+
+/* AGENTS  */
+.agents__item img{
+    width:  88%;
+}
+.agents__list{
+    display: grid;
+    margin: 0 130px;
+    grid-template-columns: repeat(4, 1fr);
+}
+.agents__info{
+    background-color: rgba(0, 0, 0, 0.79);
+    text-align: center;
+    width: 240px;
+    padding-bottom: 10px;
+}
+.agents__info h4{
+    color: #00CDCE;
+    font-size: 1.5em;
+    font-weight: 800;
+    letter-spacing: 1px;
+    padding-top: 20px;
+}
+.agents__info h4:hover{
+    color: white;
+    transition: all 0.3s;
+}
+.agents__info p{
+    color:#fff;
+    letter-spacing: 1px;
+    font-size: 0.9em;
+    margin: 0;
+}
+.agents__icon i{
+    border: white solid 2px;
+    text-decoration: none;
+    width: 30px;
+    height: 30px;
+    color: white;
+    padding-top: 5px;
+    margin: 20px 10px;
+}
+.agents__icon i:hover{
+    background-color: #00CDCE;
+}
+
 
